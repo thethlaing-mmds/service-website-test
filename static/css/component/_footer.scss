@@ -1,0 +1,31 @@
+.social-links{
+    padding: 20px;
+    a{
+        margin-right:1em;
+
+        &:last-child{
+            float:right;
+        }
+        img.gmap{
+            transform: translateY(7px);
+        }
+    }
+    i{       
+        font-size:3em;
+        &.fa-facebook{
+            color:#5C73AD;
+        }
+        &.fa-linkedin{
+            color:#2F6C8C;
+        }
+    }
+
+
+}
+footer{
+    background-color: $base-background-color;
+    color:$secondary-font-color;
+    padding:40px 20px;
+    font-size:$footer-font-size;
+    line-height: 1.6em;
+}

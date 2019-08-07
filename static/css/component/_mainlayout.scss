@@ -1,0 +1,46 @@
+
+%main-grid {
+    min-height: 100vh;
+    display: grid;
+}
+
+%content-wrapping {
+    padding: 0px 10vw;
+    width: 79vw;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: $main-font-family;
+
+    &>section {
+        @extend %main-grid;
+
+        &#home {
+            width: 99vw;
+            grid-template-columns: 20vw 13vw repeat(2, 1fr) 20vw;
+            grid-template-rows: 30vh 7em 8em repeat(2, 1fr) 50px;
+            min-height: 85vh;
+        }
+
+        &#services {
+            @extend %content-wrapping;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 10vw;           
+            grid-template-rows: repeat(5, 2fr);
+        }
+
+        &#culture-tech-stack{
+            height:auto;
+        }        
+    }
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 3em;
+    margin-top:1em;
+}

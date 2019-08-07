@@ -1,0 +1,29 @@
+{
+  "name": "mmds-website",
+  "version": "1.0.0",
+  "description": "MMDS Service Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mm-digital-solutions/Service-Website-V3-Nodejs.git"
+  },
+  "keywords": [
+    "MMDS",
+    "Website"
+  ],
+  "author": "MMDS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mm-digital-solutions/Service-Website-V3-Nodejs/issues"
+  },
+  "homepage": "https://github.com/mm-digital-solutions/Service-Website-V3-Nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
